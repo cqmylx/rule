@@ -1,7 +1,6 @@
 # 代理补充列表
 
 # 域名后缀匹配
-DOMAIN-SUFFIX,gitbook.io
 DOMAIN-SUFFIX,hostloc.com
 DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,xn--mes358aby2apfg.com
@@ -9,6 +8,7 @@ DOMAIN-SUFFIX,xn--mes358a9urctx.com
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
+DOMAIN-KEYWORD,gitbook
 
 # 国外DNS
 DOMAIN-SUFFIX,dns.google
