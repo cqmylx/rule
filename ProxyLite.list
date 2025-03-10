@@ -3,13 +3,13 @@
 # 域名后缀匹配
 DOMAIN-SUFFIX,docker.io
 DOMAIN-SUFFIX,hostloc.com
-DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,xn--mes358aby2apfg.com
 DOMAIN-SUFFIX,xn--mes358a9urctx.com
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
 DOMAIN-KEYWORD,gitbook
+DOMAIN-KEYWORD,qichiyu
 
 # 国外DNS
 DOMAIN-SUFFIX,dns.google
