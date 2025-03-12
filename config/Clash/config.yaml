@@ -119,7 +119,7 @@ proxies:
 pr: &pr {type: select， proxies: [🚀 节点选择， ♻️ 自动选择， ♻️ 香港自动， ♻️ 台湾自动， ♻️ 新加坡自动， ♻️ 美国自动， 🌐 全部节点， 全球直连]}
 # 策略组
 proxy-groups:
-  - {name: 🚀 节点选择， type: select， proxies: [♻️ 自动选择， 🌐 全部节点， 全球直连]}
+  - {name: 🚀 节点选择， type: select， proxies: [♻️ 自动选择, ♻️ 香港自动, ♻️ 台湾自动, ♻️ 新加坡自动, ♻️ 美国自动, 🌐 全部节点, 全球直连]}
   - {name: ♻️ 自动选择， type: url-test， include-all: true， tolerance: 20， interval: 300， filter: "(?i)港|hk|hongkong|hong kong|台|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|美|us"}
   - {name: 🍎 Apple， type: select， proxies: [全球直连， ♻️ 自动选择， 🚀 节点选择]}
   - {name: 🪟 Microsoft， type: select， proxies: [全球直连， ♻️ 自动选择， 🚀 节点选择]}
