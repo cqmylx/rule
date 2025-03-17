@@ -132,7 +132,7 @@ proxy-groups:
   - {name: 📲 Telegram，!!merge <<: *pr}
   - {name: 🎥 NETFLIX，!!merge <<: *pr}
   - {name: ✈️ Speedtest，!!merge <<: *pr}
-  - {name: 💶 PayPal，!!merge <<: *pr}
+  - {name: 💶 PayPal，  type: select， proxies: [全球直连， ♻️ 自动选择， 🚀 节点选择]}
   - {name: 🎯 全球直连，  type: select， proxies: [全球直连， ♻️ 自动选择， 🚀 节点选择]}
   - {name: 🐟 漏网之鱼，  type: select， proxies: [全球直连， ♻️ 自动选择， 🚀 节点选择]}
   - {name: 🇭🇰 香港节点， type: select， include-all: true， filter: "(?i)港|hk|hongkong|hong kong"}
