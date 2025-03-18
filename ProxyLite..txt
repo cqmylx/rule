@@ -1,3 +1,4 @@
+downloads.immortalwrt.org
 hub.docker.com
 qichiyu.com
 xn--mes358aby2apfg.com
