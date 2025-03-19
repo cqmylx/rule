@@ -150,16 +150,16 @@ proxy-groups:
   - {name: 🐬 OneDrive，!!merge <<: *pr}
   - {name: 🎵 TikTok，!!merge <<: *pr}
   - {name: 📲 Telegram，!!merge <<: *pr}
-  - {name: 🎥 NETFLIX,!!merge <<: *pr}
-  - {name: ✈️ Speedtest,!!merge <<: *pr}
-  - {name: 💶 PayPal,!!merge <<: *pr}
-  - {name: 🎯 全球直连,  type: select, proxies: [全球直连, ♻️ 自动选择, 🚀 节点选择]}
-  - {name: 🐟 漏网之鱼,  type: select, proxies: [全球直连, ♻️ 自动选择, 🚀 节点选择]}
-  - {name: ♻️ 香港自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
-  - {name: ♻️ 台湾自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(台|TW|(?i)Taiwan))^((?!(日|韩|新|深|美)).)*$"}
-  - {name: ♻️ 新加坡自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(新|SG|(?i)Singapore))^((?!(台|日|韩|深|美)).)*$"}
-  - {name: ♻️ 美国自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(美|US|(?i)States|America))^((?!(港|台|日|韩|新)).)*$"}
-  - {name: 🌐 全部节点, type: select, include-all: true, filter: "(?i)港|台|新|美|日|韩"}
+  - {name: 🎥 NETFLIX，!!merge <<: *pr}
+  - {name: ✈️ Speedtest，!!merge <<: *pr}
+  - {name: 💶 PayPal，  type: select， proxies: [全球直连， ♻️ 自动选择， 🚀 节点选择]}
+  - {name: 🎯 全球直连，  type: select， proxies: [全球直连， ♻️ 自动选择， 🚀 节点选择]}
+  - {name: 🐟 漏网之鱼，  type: select， proxies: [全球直连， ♻️ 自动选择， 🚀 节点选择]}
+  - {name: ♻️ 香港自动， type: url-test， include-all: true， tolerance: 20， interval: 300， filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
+  - {name: ♻️ 台湾自动， type: url-test， include-all: true， tolerance: 20， interval: 300， filter: "(?=.*(台|TW|(?i)Taiwan))^((?!(日|韩|新|深|美)).)*$"}
+  - {name: ♻️ 新加坡自动， type: url-test， include-all: true， tolerance: 20， interval: 300， filter: "(?=.*(新|SG|(?i)Singapore))^((?!(台|日|韩|深|美)).)*$"}
+  - {name: ♻️ 美国自动， type: url-test， include-all: true， tolerance: 20， interval: 300， filter: "(?=.*(美|US|(?i)States|America))^((?!(港|台|日|韩|新)).)*$"}
+  - {name: 🌐 全部节点， type: select， include-all: true， filter: "(?i)港|台|新|美|日|韩"}
   
 # 规则匹配
 # 此规则部分没有做防泄露处理，因为弊严重大于利！
