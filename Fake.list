@@ -8,5 +8,5 @@ DOMAIN-SUFFIX,xn--mes358aby2apfg.com
 DOMAIN-SUFFIX,xn--mes358a9urctx.com
 DOMAIN-SUFFIX,download.proxmox.com
 
-# 域名关键字匹配
-#DOMAIN-KEYWORD,qichiyu
+# IP匹配
+IP-CIDR,8.8.8.8/32,no-resolve
