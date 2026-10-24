@@ -7,6 +7,7 @@ DOMAIN-SUFFIX,hostloc.com
 DOMAIN-SUFFIX,xn--mes358aby2apfg.com
 DOMAIN-SUFFIX,xn--mes358a9urctx.com
 DOMAIN-SUFFIX,download.proxmox.com
+DOMAIN-SUFFIX,sourceforge.net
 
 # IP匹配
 IP-CIDR,8.8.8.8/32,no-resolve
